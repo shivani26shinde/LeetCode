@@ -12,4 +12,6 @@ Folder 1: Arrays
     
     Code 6: Find the maximum number of consecutive one's
 
-Folder 2: Math
+Folder 2: Easy
+
+Folder 3: Math
