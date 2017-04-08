@@ -13,5 +13,11 @@ Folder 1: Arrays
     Code 6: Find the maximum number of consecutive one's
 
 Folder 2: Easy
+    
+    Code 1: Count the number of prime numbers
+    
+    Code 2: Excel sheet column title
+    
+    Code 3: Find the first bad version in a given set of versions
 
 Folder 3: Math
