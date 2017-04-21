@@ -23,6 +23,10 @@ Folder 2: Easy
     Code 4: Identify if a string is a palindrome
     
     Code 5: Reverse a given integer
+    
+    Code 6: Implement strStr() function
+    
+    Code 7: Swap nodes in a linked list
 
 Folder 3: Math
 
