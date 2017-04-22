@@ -22,9 +22,10 @@ public class Solution {
                     return false;
                 }
             }
-            else{
-                map.put(pattern.charAt(i), spt[i]);
+            else if (map.containsValue(spt[i])){
+                return false;
             }
+            map.put(c, spt[i]);
         }
         return true;
     }
