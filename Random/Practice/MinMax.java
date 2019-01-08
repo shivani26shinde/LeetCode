@@ -6,13 +6,13 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class MinMax {
 
     // Complete the miniMaxSum function below.
     static void miniMaxSum(int[] arr) {
-        int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
-        int sum = 0;
+        long max = Long.MIN_VALUE;
+        long min = Long.MAX_VALUE;
+        long sum = 0;
         for(int i=0;i<arr.length;i++){
             if(max < arr[i]){
                 max = arr[i];
@@ -22,8 +22,8 @@ public class Solution {
             }
             sum = sum+arr[i];
         }
-        int ans1 = sum-max;
-        int ans2 = sum-min;
+        long ans1 = sum-max;
+        long ans2 = sum-min;
         System.out.println(ans1+" "+ans2);
     }
 
